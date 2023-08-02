@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <form method="post" action="index.html" id="encuesta-form">
+        <h1>Contactame!</h1>
+        <div class="parrafos">
+            <p>Nombre: <input type="text" name="nombre" class="bordes tamaño1" id="nombre"></p> 
+            <p>Apellido: <input type="text" name="apellidos" class="bordes tamaño1" id="apellido"></p>
+        </div>
+        <p>Correo: <input type="text" name="correo" class="bordes tamaño2"></p>
+        <p>Consulta:<textarea rows="4" cols="46" name="consulta" class="bordes"></textarea>
+        <p><input type="checkbox" class="acepto">Deseo recibir información sobre servicios</p>
+        <button type="submit" id="button">Enviar</button> 
+    </form>
+    </div>
+    <div id="mensaje-agradecimiento" style="display: none;">
+        <h1>¡Gracias por tu tiempo!</h1>
+        <h3>A la brevedad me estare comunicando contigo.</h3>
+        <button onclick="volverPaginaPrincipal()">Volver a la página principal</button>
+      </div>
+      <div class="redes">
+        <h2>Si desea contactarme:</h2>
+        <p>Instagram: <a href="https://instagram.com/valearbii?igshid=NGExMmI2YTkyZg==" target="_blank">@valearbii</a></p>
+        <p>Correo: valentina.arbiza@gmail.com</p>
+    </div>
+    
+      <script src="contacto.js"></script>
+    </body>
+</body>
+</html>

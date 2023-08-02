@@ -1,0 +1,57 @@
+* {
+    color: white;
+    font-weight:bold;
+}
+
+body {
+    background-color: pink;
+}
+
+h1 {
+    color:blueviolet;
+}
+
+a {
+    color: blueviolet;
+}
+
+.parrafos {
+    background:rgba(207, 25, 25, 0.801); 
+    font-weight:bold; 
+    padding:15px; 
+    border:5px solid #9c0041; 
+    margin-top:40px; 
+    margin-bottom:40px; 
+    text-align:center; 
+    font-size:22px;
+    width: 50%;
+    overflow: auto;
+}
+
+section {
+    display: flex;
+    width: 620px;
+    height: 430px;
+    margin-left: 52%;
+    }
+    
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    }
+    
+section img:hover {
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+}
+
+.button {
+    color: white;
+    background-color: violet;
+    font-size: 18px;
+}

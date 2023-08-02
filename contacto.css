@@ -1,0 +1,51 @@
+* {
+    background-image: url(nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+    font-weight:bold;
+}
+
+.bordes {
+    border:1px solid white;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.parrafos {
+    display: flex;
+    justify-content: center;
+}
+
+.tamaño1 {
+    width: 100px;
+}
+
+.tamaño2 {
+    width: 355px;
+}
+
+#nombre {
+    margin-right: 20px;
+}
+
+#button {
+    margin-top: 4%;
+    font-size: 15px;
+}
+
+#mensaje-agradecimiento h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.redes h2 {
+    text-align: center;
+}
